@@ -1,0 +1,11 @@
+{
+  "name": "drupal/month_year_range",
+  "type": "drupal-module",
+  "description": "Provides the form widget to fill in month and year range.",
+  "homepage": "https://github.com/nicaralava/month-year-range.git",
+  "license": "GPL-2.0+",
+  "support": {
+    "source": "https://github.com/nicaralava/month-year-range.git"
+  },
+  "minimum-stability": "dev"
+}

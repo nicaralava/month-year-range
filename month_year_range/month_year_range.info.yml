@@ -1,0 +1,13 @@
+name: 'Month Year Range'
+type: module
+description: 'Provides the form widget to fill in month and year range.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Field types
+dependencies:
+  - drupal:datetime
+  - drupal:datetime_range
+
+version: '9.0.0'
+project: 'month_year_range'
+datestamp: 1597704254

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function month_year_range_help($route_name) {
+  switch ($route_name) {
+    case 'help.page.month_year_range':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module does not store time data. The storage of time is provided by Drupal core.') . '</p>';
+      return $output;
+  }
+  return NULL;
+}
+
