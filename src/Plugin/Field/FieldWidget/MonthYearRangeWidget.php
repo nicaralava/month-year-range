@@ -35,6 +35,9 @@ class MonthYearRangeWidget extends DateRangeDatelistWidget implements ContainerF
       case 'MY':
         $date_part_order = ['month', 'year'];
         break;
+      case 'Y':
+        $date_part_order = ['year'];
+        break;
     }
     $element['value'] = [
         '#type' => 'datelist',
@@ -59,7 +62,8 @@ class MonthYearRangeWidget extends DateRangeDatelistWidget implements ContainerF
       '#default_value' => $this->getSetting('date_order'),
       '#options' => [
         'YM' => $this->t('Year/Month'),
-        'MY' => $this->t('Month/Year')
+        'MY' => $this->t('Month/Year'),
+        'Y' => $this->t('Year'),
       ],
     ];
     return $element;
